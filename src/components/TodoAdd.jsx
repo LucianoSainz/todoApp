@@ -25,7 +25,7 @@ export const TodoAdd = ({onNewTodo}) => {
     return(
         <>
         <form onSubmit={onFormSubmit}>
-          <input type="text" placeholder='Que haz que hacer? '
+          <input type="text" placeholder='what is there to do? '
            className='form-control'
            name='description'
            value={description}  
